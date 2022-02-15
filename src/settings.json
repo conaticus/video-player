@@ -1,0 +1,12 @@
+{
+    "views": {
+        "currentView": "standard"
+    },
+    "plugins": [
+        {
+            "name": "subtitles",
+            "enabled": true
+        }
+    ],
+    "developerMode": true
+}

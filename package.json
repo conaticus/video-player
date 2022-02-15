@@ -1,0 +1,29 @@
+{
+    "name": "konakonamiru",
+    "version": "1.0.0",
+    "description": "A media player for language learners!",
+    "main": "./src/main.js",
+    "scripts": {
+        "start": "cd ./src/ && electron ./main.js/ && cd ../",
+        "build-api": "cd ./src/ && npx webpack && cd ../",
+        "dev-start": "npm run build-api && npm start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/machwi/konakonamiru.git"
+    },
+    "author": "こなこな",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/machwi/konakonamiru/issues"
+    },
+    "homepage": "https://github.com/machwi/konakonamiru#readme",
+    "devDependencies": {
+        "electron": "^13.1.5",
+        "webpack": "^5.46.0",
+        "webpack-cli": "^4.7.2"
+    },
+    "dependencies": {
+        "node-html-parser": "^4.1.3"
+    }
+}
