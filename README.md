@@ -1,6 +1,6 @@
 # Video Player
 
-An open-source minimalistic video player that can be controlled with just the keyboard. It is almost fully customisable - allowing the user to create their own changes and additions to the program to suit their needs.
+An open-source minimalistic video player that can be controlled with just the keyboard. It is almost fully customizable - allowing the user to create their own changes and additions to the program to suit their needs.
 
 ### **Features**
 
